@@ -57,6 +57,7 @@ def Calcular_DT(op,a,b,c):
             print("Error: Ingrese un numero")
     elif op==3:
         print("Terminando el programa")
+        Grafica(a,b,c)
         return op==3
     else:
         print("Opción no válida. Escoja '1' o '2'.\n")
@@ -64,7 +65,6 @@ def Calcular_DT(op,a,b,c):
 a=float(input("Ingrese el costo minimo: "))
 b=float(input("Ingrese el costo maximo: "))
 c=float(input("Costo más probable: "))
-Grafica(a,b,c)
 print("Escoge la opción que deseas:")
 op=0
 while op!=3:
